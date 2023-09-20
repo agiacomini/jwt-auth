@@ -12,7 +12,7 @@ import { AuthCredentialsDto } from './dto/credential-auth.dto';
 import { AuthService } from './auth.service';
 import { ApiBearerAuth, ApiTags } from '@nestjs/swagger';
 import { AuthGuard } from './guard/auth.guard';
-import { Public } from "./is-public-decorator";
+import { Public } from './is-public-decorator';
 
 @Controller('auth')
 @ApiTags('auth')

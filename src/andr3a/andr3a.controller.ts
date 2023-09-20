@@ -18,7 +18,7 @@ export class Andr3aController {
 
   @HttpCode(HttpStatus.OK)
   @ApiBearerAuth()
-  @UseGuards(AuthGuard) //N.B: If I use a Guard at Global Level i can choose of don't use "UseGuards()" decorator on top of each controller
+  // @UseGuards(AuthGuard) //N.B: If I use a Guard at Global Level i can choose of don't use "UseGuards()" decorator on top of each controller
   // @Public()
   @Get('test')
   test() {
